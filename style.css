@@ -1,0 +1,100 @@
+html {
+    background-image: url(homebackground.jpg);
+    background-size: cover;
+    font-family: monospace;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: rgb(179, 66, 236);
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+
+.first {
+    width: 45%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: courier;
+}
+
+h3 {
+    padding-top: 5px;
+}
+
+p {
+    font-style: italic;
+}
+
+.resume, .portfolio {
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer {
+    padding: 10px;
+    display: flex;
+    margin-top: auto;
+}
+
+footer img {
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+    padding: 10px;
+}
+

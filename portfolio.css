@@ -1,0 +1,66 @@
+html {
+    background-image: url(homebackground.jpg);
+    background-size: cover;
+    font-family: monospace;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    float: left;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: rgb(179, 66, 236);
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+
+.timeline li {
+    font-size: 15px;
+}
+
+
+footer {
+    padding: 10px;
+    display: flex;
+    margin-top: auto;
+    height: auto;
+}
+
+footer img {
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+    padding: 10px;
+}
